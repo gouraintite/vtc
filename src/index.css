@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family: 'Urbanist','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shadow-smooth {
+  border: none;
+  box-shadow: 0 2px 10px #86868543;
+}
